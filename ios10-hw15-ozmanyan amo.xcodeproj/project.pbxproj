@@ -14,6 +14,7 @@
 		CE4CF6212A6F0C3400A206BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CF61F2A6F0C3400A206BD /* LaunchScreen.storyboard */; };
 		CE4CF62F2A6F135300A206BD /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF62E2A6F135300A206BD /* CustomTableViewCell.swift */; };
 		CE4CF6312A6F138100A206BD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF6302A6F138100A206BD /* Model.swift */; };
+		CE4CF6332A6F15B400A206BD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF6322A6F15B400A206BD /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CE4CF6222A6F0C3400A206BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4CF62E2A6F135300A206BD /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE4CF6302A6F138100A206BD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE4CF6322A6F15B400A206BD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4CF6182A6F0C3200A206BD /* ViewController.swift */,
+				CE4CF6322A6F15B400A206BD /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4CF6312A6F138100A206BD /* Model.swift in Sources */,
+				CE4CF6332A6F15B400A206BD /* DetailView.swift in Sources */,
 				CE4CF6192A6F0C3200A206BD /* ViewController.swift in Sources */,
 				CE4CF62F2A6F135300A206BD /* CustomTableViewCell.swift in Sources */,
 				CE4CF6152A6F0C3200A206BD /* AppDelegate.swift in Sources */,
