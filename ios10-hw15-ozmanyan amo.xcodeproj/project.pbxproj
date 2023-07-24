@@ -54,14 +54,62 @@
 		CE4CF6132A6F0C3200A206BD /* ios10-hw15-ozmanyan amo */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CF6142A6F0C3200A206BD /* AppDelegate.swift */,
-				CE4CF6162A6F0C3200A206BD /* SceneDelegate.swift */,
-				CE4CF6182A6F0C3200A206BD /* ViewController.swift */,
-				CE4CF61D2A6F0C3400A206BD /* Assets.xcassets */,
-				CE4CF61F2A6F0C3400A206BD /* LaunchScreen.storyboard */,
-				CE4CF6222A6F0C3400A206BD /* Info.plist */,
+				CE4CF6292A6F0DA400A206BD /* Sourses */,
+				CE4CF6282A6F0D9A00A206BD /* Resourses */,
 			);
 			path = "ios10-hw15-ozmanyan amo";
+			sourceTree = "<group>";
+		};
+		CE4CF6282A6F0D9A00A206BD /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF62D2A6F0E0D00A206BD /* Model */,
+				CE4CF62C2A6F0E0300A206BD /* Controller */,
+				CE4CF62B2A6F0DFA00A206BD /* View */,
+				CE4CF62A2A6F0DEB00A206BD /* App */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CE4CF6292A6F0DA400A206BD /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF6222A6F0C3400A206BD /* Info.plist */,
+				CE4CF61F2A6F0C3400A206BD /* LaunchScreen.storyboard */,
+				CE4CF61D2A6F0C3400A206BD /* Assets.xcassets */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		CE4CF62A2A6F0DEB00A206BD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF6162A6F0C3200A206BD /* SceneDelegate.swift */,
+				CE4CF6142A6F0C3200A206BD /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE4CF62B2A6F0DFA00A206BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CF6182A6F0C3200A206BD /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE4CF62C2A6F0E0300A206BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE4CF62D2A6F0E0D00A206BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ios10-hw15-ozmanyan amo/Info.plist";
+				INFOPLIST_FILE = "ios10-hw15-ozmanyan amo/Resourses/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,7 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ios10-hw15-ozmanyan amo/Info.plist";
+				INFOPLIST_FILE = "ios10-hw15-ozmanyan amo/Resourses/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
