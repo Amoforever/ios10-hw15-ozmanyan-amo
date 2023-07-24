@@ -54,8 +54,8 @@
 		CE4CF6132A6F0C3200A206BD /* ios10-hw15-ozmanyan amo */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CF6292A6F0DA400A206BD /* Sourses */,
 				CE4CF6282A6F0D9A00A206BD /* Resourses */,
+				CE4CF6292A6F0DA400A206BD /* Sourses */,
 			);
 			path = "ios10-hw15-ozmanyan amo";
 			sourceTree = "<group>";
@@ -63,10 +63,9 @@
 		CE4CF6282A6F0D9A00A206BD /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CF62D2A6F0E0D00A206BD /* Model */,
-				CE4CF62C2A6F0E0300A206BD /* Controller */,
-				CE4CF62B2A6F0DFA00A206BD /* View */,
-				CE4CF62A2A6F0DEB00A206BD /* App */,
+				CE4CF61D2A6F0C3400A206BD /* Assets.xcassets */,
+				CE4CF61F2A6F0C3400A206BD /* LaunchScreen.storyboard */,
+				CE4CF6222A6F0C3400A206BD /* Info.plist */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -74,9 +73,10 @@
 		CE4CF6292A6F0DA400A206BD /* Sourses */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CF6222A6F0C3400A206BD /* Info.plist */,
-				CE4CF61F2A6F0C3400A206BD /* LaunchScreen.storyboard */,
-				CE4CF61D2A6F0C3400A206BD /* Assets.xcassets */,
+				CE4CF62C2A6F0E0300A206BD /* Controller */,
+				CE4CF62B2A6F0DFA00A206BD /* View */,
+				CE4CF62A2A6F0DEB00A206BD /* App */,
+				CE4CF62D2A6F0E0D00A206BD /* Model */,
 			);
 			path = Sourses;
 			sourceTree = "<group>";
